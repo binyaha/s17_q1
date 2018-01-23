@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h2>User List</h2>
+  <table>
+    <tr>
+      <th>name</th>
+      <th>role</th>
+    </tr>
+    <% @users.each do |user| %>
+    <tr>
+      <td><%= user.name %></td>
+    </tr>     
+    <% end %>
+  </table>
+  </ul>
+</body>
+</html>
