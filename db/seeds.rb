@@ -8,8 +8,8 @@
 
 User.destroy_all
 
-10.times do |user_name|
+11.times do |user_name|
   User.create(name: FFaker::Name.unique.first_name)
 end
 
-puts "Create 10 user"
+puts "Create 11 user"
